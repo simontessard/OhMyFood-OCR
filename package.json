@@ -1,0 +1,11 @@
+{
+  "name": "p3_tessard_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
