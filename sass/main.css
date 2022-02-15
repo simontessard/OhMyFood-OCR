@@ -55,6 +55,16 @@ input {
   border-radius: 0;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 .btn {
   margin-block: 20px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
@@ -85,6 +95,16 @@ header img {
   margin-top: 25px;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 footer {
   background-color: #353535;
   padding: 20px;
@@ -107,6 +127,16 @@ footer li {
 
 footer .fas {
   margin-right: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 .localisation {
@@ -167,15 +197,18 @@ footer .fas {
   color: #6b6a6a;
 }
 
-.how {
-  padding: 20px;
-  font-family: "Roboto", sans-serif;
-}
-
-.how h2 {
+h2 {
   font-size: 1.5em;
   font-weight: bolder;
   margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.how {
+  padding: 20px;
 }
 
 .how__detail {
@@ -207,6 +240,16 @@ footer .fas {
 .how .fas {
   margin-right: 20px;
   color: #7e7e7e;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 .restaurant {
