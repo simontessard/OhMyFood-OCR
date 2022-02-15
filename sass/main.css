@@ -84,4 +84,8 @@ footer li {
   font-size: smaller;
   font-weight: 500;
 }
+
+footer .fas {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
