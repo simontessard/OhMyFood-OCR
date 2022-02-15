@@ -55,6 +55,20 @@ input {
   border-radius: 0;
 }
 
+.btn {
+  margin-block: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  font-weight: 500;
+  color: white;
+  padding: 20px;
+  padding-inline: 25px;
+  font-size: 1.2em;
+  border-radius: 35px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,20 +165,6 @@ footer .fas {
   font-size: 1.3em;
   text-align: center;
   color: #6b6a6a;
-}
-
-.discover button {
-  margin-block: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background: linear-gradient(#FF79DA, #9356DC);
-  font-weight: 500;
-  color: white;
-  padding: 20px;
-  padding-inline: 25px;
-  font-size: 1.2em;
-  border-radius: 35px;
-  -webkit-box-shadow: 1px 1px 5px grey;
-          box-shadow: 1px 1px 5px grey;
 }
 
 .how {
