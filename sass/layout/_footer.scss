@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@import "../base/typography";
 
 footer {
     background-color: rgb(53,53,53);
@@ -11,7 +11,7 @@ footer {
     }
     li {
         margin-bottom: 10px;
-        font-family: $font-text;
+        font-family: $font-secondary;
         font-size: smaller;
         font-weight:500;
     }

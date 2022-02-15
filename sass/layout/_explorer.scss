@@ -1,20 +1,19 @@
-@import "../utils/variables";
+@import "../base/typography";
 
 .localisation {
     background-color: rgb(234,234,234);
     display: flex;
     justify-content: center;
     box-shadow: inset 0px 6px 5px -5px darkgrey;
+    color: rgb(53,53,53);
     p {
         font-weight: bold;
         font-size: larger;
         padding: 15px;
-        font-family: $font-text;
-        color: rgb(53,53,53);
+        font-family: $font-secondary;
     }
     .fas {
         margin-right: 15px;
-        color: rgb(53,53,53);
     }
 }
 
@@ -26,7 +25,7 @@
     background-color: rgb(246,246,246);
     padding-block: 40px;
     padding-inline: 20px;
-    font-family: $font-text;
+    font-family: $font-secondary;
     h2 {
         font-size:2em;
         text-align: center;

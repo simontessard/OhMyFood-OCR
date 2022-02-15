@@ -103,6 +103,7 @@ footer .fas {
           justify-content: center;
   -webkit-box-shadow: inset 0px 6px 5px -5px darkgrey;
           box-shadow: inset 0px 6px 5px -5px darkgrey;
+  color: #353535;
 }
 
 .localisation p {
@@ -110,12 +111,10 @@ footer .fas {
   font-size: larger;
   padding: 15px;
   font-family: "Roboto", sans-serif;
-  color: #353535;
 }
 
 .localisation .fas {
   margin-right: 15px;
-  color: #353535;
 }
 
 .discover {
