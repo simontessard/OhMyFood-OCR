@@ -164,4 +164,28 @@ footer .fas {
   -webkit-box-shadow: 1px 1px 5px grey;
           box-shadow: 1px 1px 5px grey;
 }
+
+.how {
+  padding: 20px;
+}
+
+.how h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block: 30px;
+}
+
+.how__detail {
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 1px 1px 20px grey;
+          box-shadow: 1px 1px 20px grey;
+}
+
+.how .fas {
+  margin-right: 20px;
+}
 /*# sourceMappingURL=main.css.map */
