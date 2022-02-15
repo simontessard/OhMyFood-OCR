@@ -2,11 +2,11 @@
 @import "../utils/variables";
 
 .localisation {
-    background-color: rgb(234,234,234);
+    background-color: $grey-secondary;
     display: flex;
     justify-content: center;
     box-shadow: inset 0px 6px 5px -5px darkgrey;
-    color: rgb(53,53,53);
+    color: $grey-darker;
     p {
         font-weight: bold;
         font-size: larger;
