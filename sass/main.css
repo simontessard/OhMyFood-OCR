@@ -27,6 +27,10 @@ body {
   line-height: 1;
 }
 
+button {
+  border: 0;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -158,6 +162,7 @@ footer .fas {
   padding-inline: 25px;
   font-size: 1.3em;
   border-radius: 35px;
-  border: 0;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
 }
 /*# sourceMappingURL=main.css.map */
