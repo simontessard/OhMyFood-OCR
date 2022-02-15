@@ -1,3 +1,6 @@
+@import "../utils/variables";
+@import "../base/typography";
+
 .cards-container {
     display: flex;
     flex-flow: column;
@@ -10,6 +13,13 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         &__text {
             padding: 15px;
+            position: relative;
+            i {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                font-size: x-large;
+            }
         }
         &__img {
             border-top-left-radius: 15px;

@@ -79,6 +79,16 @@ p, h2, h3 {
           box-shadow: 1px 1px 5px grey;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-block: 30px;
+}
+
+p, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 .cards-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,6 +116,14 @@ p, h2, h3 {
 
 .cards-container__card__text {
   padding: 15px;
+  position: relative;
+}
+
+.cards-container__card__text i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: x-large;
 }
 
 .cards-container__card__img {
