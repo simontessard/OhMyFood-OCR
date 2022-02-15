@@ -63,4 +63,21 @@ header img {
   width: auto;
   margin-block: 10px;
 }
+
+footer {
+  background-color: #353535;
+  padding: 20px;
+  color: white;
+}
+
+footer img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=main.css.map */
