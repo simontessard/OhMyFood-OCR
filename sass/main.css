@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -73,11 +74,14 @@ footer {
 footer img {
   -webkit-filter: invert(1);
           filter: invert(1);
-  height: 20px;
-  margin-bottom: 10px;
+  height: 17px;
+  margin-bottom: 15px;
 }
 
 footer li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */

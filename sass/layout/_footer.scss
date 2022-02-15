@@ -1,13 +1,18 @@
+@import "../utils/variables";
+
 footer {
     background-color: rgb(53,53,53);
     padding: 20px;
     color: white;
     img {
         filter: invert(1);
-        height: 20px;
-        margin-bottom: 10px;
+        height: 17px;
+        margin-bottom: 15px;
     }
     li {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        font-family: $font-text;
+        font-size: smaller;
+        font-weight:500;
     }
 }
