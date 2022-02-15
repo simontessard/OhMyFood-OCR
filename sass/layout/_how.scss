@@ -1,10 +1,12 @@
 @import "../utils/variables";
+@import "../base/typography";
 
 .how {
     padding: 20px;
+    font-family: $font-secondary;
     h2 {
         font-size:1.5em;
-        font-weight: bold;
+        font-weight: bolder;
         margin-block: 30px;
     }
     &__detail {
@@ -12,8 +14,23 @@
         border-radius: 20px;
         background-color: $grey-primary;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        margin-left: 15px;
         box-shadow: 1px 1px 20px grey;
+        position: relative;
+        span {
+            background-color: $color-primary;
+            position: absolute;
+            left: -15px;
+            top: 20px;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            padding: 8px;
+            color: white;
+            text-align: center;
+            font-size: x-small;
+        }
     }
     .fas {
         margin-right: 20px;

@@ -168,11 +168,12 @@ footer .fas {
 
 .how {
   padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .how h2 {
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: bolder;
   margin-block: 30px;
 }
 
@@ -181,9 +182,25 @@ footer .fas {
   border-radius: 20px;
   background-color: #f6f6f6;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 15px;
   -webkit-box-shadow: 1px 1px 20px grey;
           box-shadow: 1px 1px 20px grey;
+  position: relative;
+}
+
+.how__detail span {
+  background-color: #9356DC;
+  position: absolute;
+  left: -15px;
+  top: 20px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  font-size: x-small;
 }
 
 .how .fas {
