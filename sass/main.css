@@ -48,4 +48,19 @@ input {
   -webkit-appearance: none;
   border-radius: 0;
 }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  height: 30px;
+  width: auto;
+  margin-block: 10px;
+}
 /*# sourceMappingURL=main.css.map */
