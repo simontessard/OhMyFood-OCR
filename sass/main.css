@@ -103,6 +103,7 @@ footer .fas {
 
 .localisation p {
   font-weight: bold;
+  font-size: larger;
   padding: 15px;
   font-family: "Roboto", sans-serif;
   color: #353535;
@@ -144,7 +145,7 @@ footer .fas {
   margin-bottom: 25px;
   font-size: 1.5em;
   text-align: center;
-  color: grey;
+  color: #6b6a6a;
 }
 
 .discover button {
