@@ -16,3 +16,37 @@
         color: rgb(53,53,53);
     }
 }
+
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgb(246,246,246);
+    padding-block: 40px;
+    padding-inline: 20px;
+    font-family: $font-text;
+    h2 {
+        font-size:2em;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size:1.5em;
+        text-align: center;
+        color: grey;
+    }
+    button {
+        margin-block: 20px;
+        background: linear-gradient(#FF79DA, #9356DC);
+        font-weight: 500;
+        color: white;
+        padding: 20px;
+        padding-inline: 25px;
+        font-size:1.3em;
+        border-radius: 35px;
+        border: 0;
+    }
+}
