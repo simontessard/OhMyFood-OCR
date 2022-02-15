@@ -66,7 +66,8 @@ header {
 header img {
   height: 30px;
   width: auto;
-  margin-block: 10px;
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 footer {
@@ -146,7 +147,7 @@ footer .fas {
 
 .discover p {
   margin-bottom: 25px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
   color: #6b6a6a;
 }
@@ -159,7 +160,7 @@ footer .fas {
   color: white;
   padding: 20px;
   padding-inline: 25px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   border-radius: 35px;
   -webkit-box-shadow: 1px 1px 5px grey;
           box-shadow: 1px 1px 5px grey;
