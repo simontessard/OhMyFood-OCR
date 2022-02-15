@@ -1,0 +1,18 @@
+@import "../utils/variables";
+
+.localisation {
+    background-color: rgb(234,234,234);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 6px 5px -5px darkgrey;
+    p {
+        font-weight: bold;
+        padding: 15px;
+        font-family: $font-text;
+        color: rgb(53,53,53);
+    }
+    .fas {
+        margin-right: 15px;
+        color: rgb(53,53,53);
+    }
+}

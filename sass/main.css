@@ -88,4 +88,28 @@ footer li {
 footer .fas {
   margin-right: 10px;
 }
+
+.localisation {
+  background-color: #eaeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0px 6px 5px -5px darkgrey;
+          box-shadow: inset 0px 6px 5px -5px darkgrey;
+}
+
+.localisation p {
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #353535;
+}
+
+.localisation .fas {
+  margin-right: 15px;
+  color: #353535;
+}
 /*# sourceMappingURL=main.css.map */
