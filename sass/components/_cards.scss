@@ -16,6 +16,9 @@
         &__text {
             padding: 15px;
             position: relative;
+            background-color: #FFF;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
             i {
                 position: absolute;
                 right: 20px;
@@ -55,6 +58,7 @@
                 color: $green-secondary;
                 font-family: $font-secondary;
                 font-size: small;
+                border-radius: 2px;
             }
         }
         h3 {

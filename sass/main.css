@@ -119,6 +119,9 @@ p, h2, h3 {
 .cards-container__card__text {
   padding: 15px;
   position: relative;
+  background-color: #FFF;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .cards-container__card__text i {
@@ -166,6 +169,7 @@ p, h2, h3 {
   color: #008766;
   font-family: "Roboto", sans-serif;
   font-size: small;
+  border-radius: 2px;
 }
 
 .cards-container__card h3 {
