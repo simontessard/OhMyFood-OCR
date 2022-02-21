@@ -189,6 +189,14 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  font-size: large;
+  padding-left: 20px;
 }
 
 header img {
@@ -196,6 +204,12 @@ header img {
   width: auto;
   margin-bottom: 10px;
   margin-top: 25px;
+}
+
+header .right, header a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 h2 {

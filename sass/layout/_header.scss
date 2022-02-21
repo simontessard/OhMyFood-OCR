@@ -1,10 +1,18 @@
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    a {
+        font-size:large;
+        padding-left: 20px;
+    }
     img {
         height: 30px;
         width: auto;
         margin-bottom: 10px;
         margin-top: 25px;
+    }
+    .right, a {
+        flex: 1;
     }
 }
