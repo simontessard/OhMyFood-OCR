@@ -1,0 +1,18 @@
+@import "../utils/variables";
+@import "../base/typography";
+
+.menu {
+    background-color: $grey-primary;
+    padding: 20px;
+    display:flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    &__titre {
+        color: $grey-icon;
+    }
+    .plat {
+        background-color: #FFF;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
