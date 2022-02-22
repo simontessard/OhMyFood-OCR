@@ -400,6 +400,23 @@ p, h2, h3 {
   font-weight: bold;
 }
 
+.menu .plat__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu .plat__detail .prix {
+  font-weight: bold;
+}
+
 .menu .plat p {
   font-size: small;
 }
