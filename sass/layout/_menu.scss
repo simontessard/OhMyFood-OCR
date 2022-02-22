@@ -15,6 +15,11 @@
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     .titre-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-right: 15px;
         font-size: x-large;
         font-family: $font-primary;
     }
