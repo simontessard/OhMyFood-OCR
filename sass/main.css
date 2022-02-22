@@ -346,6 +346,16 @@ p, h2, h3 {
 .menu {
   background-color: #f6f6f6;
   padding: 20px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.menu .titre-page {
+  font-size: x-large;
+  font-family: "Shrikhand", sans-serif;
+}
+
+.menu .carte {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
