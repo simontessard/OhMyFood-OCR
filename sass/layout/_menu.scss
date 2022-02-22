@@ -9,6 +9,9 @@
     background-position: center;
 }
 .menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
     margin-top: -50px;
     background-color: $grey-primary;
     padding: 20px;
@@ -59,5 +62,8 @@
         p {
             font-size: small;
         }
+    }
+    &__bouton {
+        text-align: center;
     }
 }
