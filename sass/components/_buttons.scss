@@ -9,4 +9,10 @@
     border-radius: 35px;
     box-shadow: 1px 1px 5px grey;
     width: fit-content;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    &:hover {
+        transform: scale(1.15);
+    }
 }
