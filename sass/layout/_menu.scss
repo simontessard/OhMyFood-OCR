@@ -1,7 +1,15 @@
 @import "../utils/variables";
 @import "../base/typography";
 
+.image {
+    background-image: url(../public/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    height: 250px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
 .menu {
+    margin-top: -50px;
     background-color: $grey-primary;
     padding: 20px;
     border-top-left-radius: 35px;
@@ -9,7 +17,6 @@
     .titre-page {
         font-size: x-large;
         font-family: $font-primary;
-        // background-image: url(../public/assets/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     }
     .carte {
         display:flex;

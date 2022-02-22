@@ -145,11 +145,11 @@ p, h2, h3 {
 }
 
 .cards-container__card__img--3 {
-  background-image: url(../public/assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  background-image: url(../public/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
 }
 
 .cards-container__card__img--4 {
-  background-image: url(../public/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  background-image: url(../public/assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
 
 .cards-container__card__img--new {
@@ -343,7 +343,16 @@ p, h2, h3 {
   font-family: "Roboto", sans-serif;
 }
 
+.image {
+  background-image: url(../public/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
 .menu {
+  margin-top: -50px;
   background-color: #f6f6f6;
   padding: 20px;
   border-top-left-radius: 35px;
