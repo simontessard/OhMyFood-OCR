@@ -426,9 +426,27 @@ p, h2, h3 {
 }
 
 .menu .plat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #FFF;
-  padding: 10px;
   border-radius: 15px;
+}
+
+.menu .plat:hover .fa-check-circle {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
+
+.menu .plat:hover .container-bouton {
+  width: 100px;
 }
 
 .menu .plat h3 {
@@ -440,21 +458,58 @@ p, h2, h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
 }
 
-.menu .plat__detail .prix {
-  font-weight: bold;
-}
-
-.menu .plat p {
+.menu .plat__detail p {
   font-size: small;
+}
+
+.menu .plat__droite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.menu .plat__droite .fa-check-circle {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  font-size: x-large;
+  background-color: #99E2D0;
+  vertical-align: middle;
+  color: white;
+}
+
+.menu .plat__droite .container-bouton {
+  margin-right: -40px;
+  -webkit-transition: background-color 400ms ease-in-out, width 800ms;
+  transition: background-color 400ms ease-in-out, width 800ms;
+  background-color: #99E2D0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 0px;
+}
+
+.menu .plat__droite .prix {
+  font-weight: bold;
+  font-size: small;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 10px;
 }
 
 .menu__bouton {

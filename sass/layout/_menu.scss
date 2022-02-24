@@ -43,24 +43,60 @@
             border-bottom: 3px solid $green-primary;
         }
     }
+
     .plat {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         background-color: #FFF;
-        padding: 10px;
         border-radius: 15px;
+        &:hover .fa-check-circle{
+            transform: rotate(-360deg);
+        }
+        &:hover .container-bouton{
+            width: 100px;
+        }
         h3 {
             margin-bottom: 5px;
             font-weight: bold;
         }
         &__detail {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            .prix {
-                font-weight: bold;
+            flex-direction: column;
+            padding: 10px;
+            p {
+                font-size: small;
             }
         }
-        p {
-            font-size: small;
+        &__droite {
+            display: flex;
+            overflow: hidden;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            .fa-check-circle {
+                transition: all 400ms ease-in-out;
+                font-size: x-large;
+                background-color: $green-primary;
+                vertical-align: middle;
+                color: white;
+            }
+            .container-bouton {
+                margin-right: -40px;
+                transition: background-color 400ms ease-in-out, width 800ms;
+                background-color: $green-primary;
+                display: flex;
+                align-items: center;
+                padding-inline: 20px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                width: 0px;
+            }
+            .prix {
+                font-weight: bold;
+                font-size: small;
+                align-self: flex-end;
+                padding: 10px;
+            }
         }
     }
     &__bouton {
