@@ -45,6 +45,9 @@
     }
 
     .plat {
+        transition: all 500ms ease-in;
+        animation: apparition 1000ms;
+        animation-delay: .9s;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -74,7 +77,7 @@
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
             .fa-check-circle {
-                transition: all 400ms ease-in-out;
+                transition: all 500ms ease-in-out;
                 font-size: x-large;
                 background-color: $green-primary;
                 vertical-align: middle;
@@ -82,7 +85,7 @@
             }
             .container-bouton {
                 margin-right: -40px;
-                transition: background-color 400ms ease-in-out, width 800ms;
+                transition: background-color 500ms ease-in-out, width 500ms;
                 background-color: $green-primary;
                 display: flex;
                 align-items: center;
@@ -101,5 +104,13 @@
     }
     &__bouton {
         text-align: center;
+    }
+
+    @keyframes apparition{
+        from {
+            opacity: 0;
+            transform: translateY(50%);
+        }
+        to { opacity: 1 }
     }
 }

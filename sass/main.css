@@ -426,6 +426,12 @@ p, h2, h3 {
 }
 
 .menu .plat {
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  -webkit-animation: apparition 1000ms;
+          animation: apparition 1000ms;
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,8 +485,8 @@ p, h2, h3 {
 }
 
 .menu .plat__droite .fa-check-circle {
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
   font-size: x-large;
   background-color: #99E2D0;
   vertical-align: middle;
@@ -489,8 +495,8 @@ p, h2, h3 {
 
 .menu .plat__droite .container-bouton {
   margin-right: -40px;
-  -webkit-transition: background-color 400ms ease-in-out, width 800ms;
-  transition: background-color 400ms ease-in-out, width 800ms;
+  -webkit-transition: background-color 500ms ease-in-out, width 500ms;
+  transition: background-color 500ms ease-in-out, width 500ms;
   background-color: #99E2D0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,6 +520,28 @@ p, h2, h3 {
 
 .menu__bouton {
   text-align: center;
+}
+
+@-webkit-keyframes apparition {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .accueil h2 {
