@@ -47,7 +47,6 @@
     .plat {
         transition: all 500ms ease-in;
         animation: apparition 1000ms;
-        animation-delay: .9s;
         display: flex;
         flex-direction: row;
         cursor: pointer;
@@ -114,5 +113,21 @@
             transform: translateY(50%);
         }
         to { opacity: 1 }
+    }
+
+    .delay-1 {
+        animation-delay: .1s;
+    }
+
+    .delay-2 {
+        animation-delay: .3s;
+    }
+
+    .delay-3 {
+        animation-delay: .5s;
+    }
+
+    .delay-4 {
+        animation-delay: .7s;
     }
 }

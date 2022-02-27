@@ -430,8 +430,6 @@ p, h2, h3 {
   transition: all 500ms ease-in;
   -webkit-animation: apparition 1000ms;
           animation: apparition 1000ms;
-  -webkit-animation-delay: .9s;
-          animation-delay: .9s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,6 +544,26 @@ p, h2, h3 {
   to {
     opacity: 1;
   }
+}
+
+.menu .delay-1 {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.menu .delay-2 {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.menu .delay-3 {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.menu .delay-4 {
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
 }
 
 .accueil h2 {
