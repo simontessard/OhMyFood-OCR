@@ -47,6 +47,9 @@
     .plat {
         transition: all 500ms ease-in;
         animation: apparition 1000ms;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
         display: flex;
         flex-direction: row;
         cursor: pointer;
@@ -64,12 +67,10 @@
             font-weight: bold;
         }
         &__detail {
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
+            width: 200px;
             display: flex;
             flex-direction: column;
-            padding: 10px;
+            padding: 15px;
             p { font-size: small; }
         }
         &__droite {
@@ -99,7 +100,8 @@
                 font-weight: bold;
                 font-size: small;
                 align-self: flex-end;
-                padding: 10px;
+                padding: 15px;
+                padding-bottom: 10px;
             }
         }
     }
@@ -125,9 +127,5 @@
 
     .delay-3 {
         animation-delay: .5s;
-    }
-
-    .delay-4 {
-        animation-delay: .7s;
     }
 }
