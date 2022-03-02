@@ -133,7 +133,26 @@ p, h2, h3 {
   position: absolute;
   right: 20px;
   top: 20px;
-  font-size: x-large;
+  font-size: 2em;
+  color: black;
+}
+
+.cards-container__card__text .fas {
+  right: 18px;
+  top: 18px;
+  opacity: 0;
+  font-size: 2.2em;
+  color: #FF79DA;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.cards-container__card__text .fas:hover {
+  opacity: 1;
 }
 
 .cards-container__card__img {
