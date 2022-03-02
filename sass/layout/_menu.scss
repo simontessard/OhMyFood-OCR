@@ -25,6 +25,22 @@
         padding-right: 15px;
         font-size: x-large;
         font-family: $font-primary;
+        position: relative;
+        .fas {
+            position: absolute;
+            color: $color-secondary;
+            font-size: larger;
+            opacity: 0;
+            right: 12px;
+            top: 12px;
+            z-index: 1;
+            transition-property: opacity;
+            transition-duration: 1s;
+            transition-delay: 0.3s;
+            &:hover {
+                opacity: 1;
+            }
+        }
     }
     .carte {
         display:flex;

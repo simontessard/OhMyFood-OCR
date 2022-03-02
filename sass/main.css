@@ -507,6 +507,27 @@ p, h2, h3 {
   padding-right: 15px;
   font-size: x-large;
   font-family: "Shrikhand", sans-serif;
+  position: relative;
+}
+
+.menu .titre-page .fas {
+  position: absolute;
+  color: #FF79DA;
+  font-size: larger;
+  opacity: 0;
+  right: 12px;
+  top: 12px;
+  z-index: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.menu .titre-page .fas:hover {
+  opacity: 1;
 }
 
 .menu .carte {
