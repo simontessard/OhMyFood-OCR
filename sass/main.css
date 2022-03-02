@@ -474,6 +474,10 @@ p, h2, h3 {
   background-position: center;
 }
 
+.fa-arrow-left {
+  cursor: pointer;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
