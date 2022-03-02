@@ -145,10 +145,10 @@ p, h2, h3 {
   color: #FF79DA;
   -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 1.5s;
-          transition-duration: 1.5s;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
 }
 
 .cards-container__card__text .fas:hover {
