@@ -451,6 +451,14 @@ p, h2, h3 {
   font-size: x-small;
 }
 
+.how__detail:hover > i {
+  color: #9356DC;
+}
+
+.how__detail:hover {
+  background-color: #f5ecfe;
+}
+
 .how .fas {
   margin-right: 20px;
   color: #7e7e7e;
@@ -525,6 +533,7 @@ p, h2, h3 {
   right: 13px;
   top: 13px;
   z-index: 1;
+  cursor: pointer;
   -webkit-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-duration: 1s;

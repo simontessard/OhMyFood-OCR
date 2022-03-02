@@ -36,9 +36,11 @@
             right: 13px;
             top: 13px;
             z-index: 1;
+            cursor: pointer;
             transition-property: opacity;
             transition-duration: 1s;
             transition-delay: 0.3s;
+            
 
             background:-moz-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 
             background: -webkit-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 

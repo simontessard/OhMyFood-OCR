@@ -29,7 +29,14 @@
             text-align: center;
             font-size: x-small;
         }
+        &:hover > i{
+            color: $color-primary;
+        }
+        &:hover{
+            background-color: rgb(245,236,254);
+        }
     }
+    
     .fas {
         margin-right: 20px;
         color: $grey-icon;
