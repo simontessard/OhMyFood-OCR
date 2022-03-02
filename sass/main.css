@@ -142,13 +142,17 @@ p, h2, h3 {
   top: 18px;
   opacity: 0;
   font-size: 2.2em;
-  color: #FF79DA;
   -webkit-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cards-container__card__text .fas:hover {
@@ -509,18 +513,17 @@ p, h2, h3 {
           justify-content: space-between;
   padding-top: 15px;
   padding-right: 15px;
-  font-size: x-large;
+  font-size: 2em;
   font-family: "Shrikhand", sans-serif;
   position: relative;
 }
 
 .menu .titre-page .fas {
   position: absolute;
-  color: #FF79DA;
-  font-size: larger;
+  font-size: 1.1em;
   opacity: 0;
   right: 13px;
-  top: 12px;
+  top: 13px;
   z-index: 1;
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -528,6 +531,11 @@ p, h2, h3 {
           transition-duration: 1s;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu .titre-page .fas:hover {

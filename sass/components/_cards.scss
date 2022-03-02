@@ -32,10 +32,19 @@
                 top: 18px;
                 opacity: 0;
                 font-size: 2.2em;
-                color: $color-secondary;
+                
                 transition-property: opacity;
                 transition-duration: 1s;
                 transition-delay: 0.3s;
+
+                background:-moz-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 
+                background: -webkit-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 
+                background: linear-gradient(to bottom, $color-primary 0%,$color-secondary 100%);
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color:transparent;
+                
                 &:hover {
                     opacity: 1;
                 }
