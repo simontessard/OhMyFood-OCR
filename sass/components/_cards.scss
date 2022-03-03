@@ -4,6 +4,17 @@
 .cards-container {
     display: flex;
     flex-flow: column;
+    @media screen and (min-width: 991px) {
+        flex-flow: row wrap;
+        column-gap: 40px;
+        justify-content: center;
+    }
+    h2 {
+        flex: 100%;
+        @media screen and (min-width: 991px) {
+            text-align: center;
+        }
+    }
     &__card {
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -11,6 +22,10 @@
         border-top-right-radius: 15px;
         flex: 1 1 auto;
         flex-flow: column;
+        min-width: 400px;
+        @media screen and (min-width: 991px) {
+            margin-bottom: 40px;
+        }
         margin-bottom: 20px;
         box-shadow: 0 5px 5px rgba(77, 75, 75, 0.19), 0 1px 1px rgba(73, 73, 73, 0.23);
         cursor: pointer;

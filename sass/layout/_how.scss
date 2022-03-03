@@ -3,6 +3,16 @@
 
 .how {
     padding: 20px;
+    @media screen and (min-width: 991px) {
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 40px;
+        justify-content: center;
+        h2 {
+            flex: 100%;
+            text-align: center;
+        }
+    }
     &__detail {
         padding: 25px;
         border-radius: 20px;

@@ -103,6 +103,32 @@ p, h2, h3 {
           flex-flow: column;
 }
 
+@media screen and (min-width: 991px) {
+  .cards-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.cards-container h2 {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+@media screen and (min-width: 991px) {
+  .cards-container h2 {
+    text-align: center;
+  }
+}
+
 .cards-container__card {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -115,10 +141,17 @@ p, h2, h3 {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  min-width: 400px;
   margin-bottom: 20px;
   -webkit-box-shadow: 0 5px 5px rgba(77, 75, 75, 0.19), 0 1px 1px rgba(73, 73, 73, 0.23);
           box-shadow: 0 5px 5px rgba(77, 75, 75, 0.19), 0 1px 1px rgba(73, 73, 73, 0.23);
   cursor: pointer;
+}
+
+@media screen and (min-width: 991px) {
+  .cards-container__card {
+    margin-bottom: 40px;
+  }
 }
 
 .cards-container__card__text {
@@ -423,6 +456,29 @@ p, h2, h3 {
 
 .how {
   padding: 20px;
+}
+
+@media screen and (min-width: 991px) {
+  .how {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .how h2 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    text-align: center;
+  }
 }
 
 .how__detail {
