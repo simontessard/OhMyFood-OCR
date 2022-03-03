@@ -15,12 +15,18 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    @media screen and (min-width: 992px) {
+        align-items: center;
+    }
     margin-top: -50px;
     background-color: $grey-primary;
     padding: 20px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     .titre-page {
+        @media screen and (min-width: 992px) {
+            min-width: 600px;
+        }
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -37,10 +43,10 @@
             top: 13px;
             z-index: 1;
             cursor: pointer;
+
             transition-property: opacity;
             transition-duration: 1s;
             transition-delay: 0.3s;
-            
 
             background:-moz-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 
             background: -webkit-linear-gradient(top, $color-primary 0%, $color-secondary 100%); 
@@ -72,8 +78,13 @@
             border-bottom: 3px solid $green-primary;
         }
     }
-
+    .rubrique {
+        @media screen and (min-width: 992px) {
+            min-width: 600px;
+        }
+    }
     .plat {
+        margin-top: 10px;
         transition: all 500ms ease-in;
         animation: apparition 1000ms;
         white-space: nowrap;

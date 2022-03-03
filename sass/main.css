@@ -564,6 +564,14 @@ p, h2, h3 {
   border-top-right-radius: 35px;
 }
 
+@media screen and (min-width: 992px) {
+  .menu {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .menu .titre-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -580,6 +588,12 @@ p, h2, h3 {
   font-size: 2em;
   font-family: "Shrikhand", sans-serif;
   position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .menu .titre-page {
+    min-width: 600px;
+  }
 }
 
 .menu .titre-page .fas {
@@ -632,7 +646,14 @@ p, h2, h3 {
   border-bottom: 3px solid #99E2D0;
 }
 
+@media screen and (min-width: 992px) {
+  .menu .rubrique {
+    min-width: 600px;
+  }
+}
+
 .menu .plat {
+  margin-top: 10px;
   -webkit-transition: all 500ms ease-in;
   transition: all 500ms ease-in;
   -webkit-animation: apparition 1000ms;
