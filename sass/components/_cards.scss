@@ -20,9 +20,9 @@
         border-bottom-right-radius: 15px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-        flex: 1 1 auto;
+        flex: 1 1 50%;
         flex-flow: column;
-        min-width: 400px;
+        min-width: 300px;
         @media screen and (min-width: 991px) {
             margin-bottom: 40px;
         }
