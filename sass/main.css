@@ -797,6 +797,11 @@ p, h2, h3 {
           animation-delay: .5s;
 }
 
+.menu .delay-4 {
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+
 .accueil h2 {
   font-size: 1.5em;
   font-weight: bolder;
