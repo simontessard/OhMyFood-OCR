@@ -644,6 +644,7 @@ p, h2, h3 {
 }
 
 .menu .carte {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -666,6 +667,10 @@ p, h2, h3 {
   width: 40px;
   padding-top: 5px;
   border-bottom: 3px solid #99E2D0;
+}
+
+.menu .rubrique {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -701,21 +706,21 @@ p, h2, h3 {
 }
 
 .menu .plat:hover .container-bouton {
-  width: 100px;
+  width: 105px;
 }
 
 .menu .plat__detail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu .plat__detail h3 {
