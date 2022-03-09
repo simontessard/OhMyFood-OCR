@@ -718,6 +718,7 @@ p, h2, h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 15px;
+  padding-right: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -736,6 +737,7 @@ p, h2, h3 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  line-height: normal;
 }
 
 .menu .plat__droite {
