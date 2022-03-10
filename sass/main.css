@@ -763,8 +763,6 @@ p, h2, h3 {
       -ms-flex-align: center;
           align-items: center;
   padding-inline: 20px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
   width: 0px;
 }
 

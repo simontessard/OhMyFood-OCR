@@ -1,0 +1,10 @@
+@mixin angle-bouton {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@mixin effet-ellipse {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

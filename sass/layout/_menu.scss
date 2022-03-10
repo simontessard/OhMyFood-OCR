@@ -1,5 +1,6 @@
 @import "../utils/variables";
 @import "../base/typography";
+@import "../utils/mixins";
 
 .image {
     background-image: url(../public/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
@@ -106,28 +107,21 @@
         flex-direction: column;
         padding: 15px;
         padding-right: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
+        @include effet-ellipse;
         flex-shrink: 4;
             h3 {
                 margin-bottom: 5px;
                 font-weight: bold;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
+                @include effet-ellipse;
             }
             p { font-size: small;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
+                @include effet-ellipse;
                 line-height: normal; }
         }
         &__droite {
             display: flex;
             overflow: hidden;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
+            @include angle-bouton;
             .container-bouton {
                 margin-right: -40px;
                 transition: background-color 600ms ease-in-out, width 600ms;
@@ -135,8 +129,6 @@
                 display: flex;
                 align-items: center;
                 padding-inline: 20px;
-                border-top-right-radius: 15px;
-                border-bottom-right-radius: 15px;
                 width: 0px;
                 .fa-check-circle {
                     transition: all 600ms ease-in-out;
@@ -157,7 +149,6 @@
     &__bouton {
         text-align: center;
     }
-
     @keyframes apparition{
         from {
             opacity: 0;
@@ -165,19 +156,15 @@
         }
         to { opacity: 1 }
     }
-
     .delay-1 {
         animation-delay: .1s;
     }
-
     .delay-2 {
         animation-delay: .3s;
     }
-
     .delay-3 {
         animation-delay: .5s;
     }
-
     .delay-4 {
         animation-delay: .7s;
     }
