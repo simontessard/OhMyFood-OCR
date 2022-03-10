@@ -409,6 +409,10 @@ footer .fas {
   margin-right: 10px;
 }
 
+footer ul li a {
+  cursor: pointer;
+}
+
 p, h2, h3 {
   font-family: "Roboto", sans-serif;
 }
