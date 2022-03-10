@@ -1,9 +1,10 @@
 @import "../utils/variables";
+@import "../utils/mixins";
 @import "../base/typography";
 
 .how {
-    padding: 20px;
-    background-color: #FFF;
+padding: 20px;
+background-color: #FFF;
     @media screen and (min-width: 991px) {
         display: flex;
         flex-flow: row wrap;
@@ -19,13 +20,8 @@
         border-radius: 20px;
         background-color: $grey-primary;
         font-weight: bold;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-        0 1px 1px rgba(0, 0, 0, 0.06),
-        0 5.3px 11.9px rgba(0, 0, 0, 0.072),
-        0 21.8px 33.4px rgba(0, 0, 0, 0.086);
+        margin-bottom: 20px; margin-left: 15px;
+        @include bordure-bouton;
         position: relative;
         span {
             background-color: $color-primary;
@@ -33,21 +29,15 @@
             left: -15px;
             top: 20px;
             border-radius: 50%;
-            width: 24px;
-            height: 24px;
+            width: 24px; height: 24px;
             padding: 8px;
             color: white;
             text-align: center;
             font-size: x-small;
         }
-        &:hover > i{
-            color: $color-primary;
-        }
-        &:hover{
-            background-color: rgb(245,236,254);
-        }
+        &:hover > i { color: $color-primary; }
+        &:hover { background-color: rgb(245,236,254); }
     }
-    
     .fas {
         margin-right: 20px;
         color: $grey-icon;
