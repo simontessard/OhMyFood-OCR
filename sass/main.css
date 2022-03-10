@@ -129,9 +129,9 @@ p, h2, h3 {
 
 .cards-container__card {
   border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 35%;
           flex: 1 1 35%;
